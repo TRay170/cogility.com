@@ -1,0 +1,51 @@
+.ui-accordion {
+	margin: 0;
+	list-style-type: none;
+	padding: 0;
+}
+.ui-accordion li { margin: 0; margin-bottom: 2px; padding: 0; }
+.ui-accordion li .ui-accordion-header {
+	display: block;
+	padding-left: 0px;
+	margin-right: 3px;
+	height: 28px;
+	color: #333;
+	text-decoration: none;
+	line-height: 28px;
+	position: relative;
+}
+
+.ui-accordion li:hover .ui-accordion-left {
+}
+.ui-accordion li:hover .ui-accordion-header {
+	color: #E11717;
+	font-weight: bold;
+}
+.ui-accordion li:hover .ui-accordion-header a{
+	color: #333;
+}
+.ui-accordion li:hover .ui-accordion-right {
+}
+
+.ui-accordion li.selected .ui-accordion-left {
+}
+.ui-accordion li.selected .ui-accordion-header {
+}
+.ui-accordion li.selected .ui-accordion-right {
+}
+.ui-accordion-link  {
+	font-weight: bold;
+	text-decoration: underline;
+}
+.ui-accordion-link h4 {
+	float: right;
+	margin: 0px;
+	padding: 0px;
+}
+.ui-accordion-link li a:hover {
+	color: #900;
+}
+.ui-accordion-data img {
+	float: left;
+	margin-right: 10px;
+}

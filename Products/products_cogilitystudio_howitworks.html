@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Cogility Software</title>
+<link rel="stylesheet" href="../CSS/lightbox.css" type="text/css" media="screen" />
+
+
+<script type="text/javascript" src="../_scripts/prototype.js"></script>
+<script type="text/javascript" src="../_scripts/scriptaculous.js?load=effects,builder"></script>
+<script type="text/javascript" src="../_scripts/lightbox.js"></script>
+
+<!--[if !IE]><!-->
+<link href="../CSS/Cogility CSS.css" rel="stylesheet" type="text/css" />
+<!--<![endif]-->
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" href="../CSS/Cogility CSSIE.css"  />
+<![endif]-->
+
+</head>
+
+<body>
+<div id="container">
+  <div id="header">
+<div class="logo"><a href="../index.html"><img src="../Images/cogility_logo.png" alt="Cogility Software the leader in model driven complex event processing" width="203" height="50" longdesc="index.html" /></a></div>
+   <div class="quick-links">
+    <ul>
+		<li class="first"><a href="../index.html"  id="company-link">Home</a></li>
+		<li><a href="../Company/company_newsandmedia.html" id="news">News</a></li> 
+		<!--<li><a href="../Company/company_contact.html" id="contact">Contact</a></li>-->
+	</ul>
+</div>
+<div id="main-nav-wrapper">
+	<div id="main-nav">
+<ul>
+	<li id="products"><a  href="../products.html" class="current" >Products</a></li>
+    <!--<li id="services" ><a  href="../services.html" class="button">Services</a></li>-->
+	<li id="company"><a   href="../company.html" class="button">Company</a></li>
+    <!--<li id="partners"><a  href="../partners.html" class="button">Partners</a></li>-->
+    <li id="clients"><a  href="../clients.html" class="button">Clients</a></li>
+</ul>
+	</div>
+</div>
+  </div>
+  <div id="bd">
+ <div id="sbpg_leftnav">
+   <ul>
+     <li><a class="select" href="products_cogilitystudio.html">Cogility Studio</a></li>
+     <li><a class="selectsub" href="products_cogilitystudio_howitworks.html">How it Works</a></li>
+     <li><a class="nav2" href="products_cogilitystudio_dynamicmda.html">Dynamic MDA</a></li>
+     <li><a class="nav2" href="products_cogilitystudio_compositeapps.html">Composite Apps</a></li>
+     <li><a class="nav-header" href="products_intelframework.html">Cogility Intel Framework</a></li>
+     <li><a class="nav-header" href="products_TEPL.html">TEPL</a></li>
+     <li><a class="nav-header" href="products_resources.html">Resources</a></li>
+   </ul>
+ </div>
+ <div id="maincontent">
+ <div id="liquid-round">
+ <div class="top"><span></span>
+ </div>
+ <div class="center-content">
+ <div id="masterhead">
+  <div class="iconcenter"><img src="../Images/puzzle_blue.png" alt="Cogility Studio" width="193" height="181" /></div>
+   <h1>How Cogility Studio Works</h1>
+   <p class="white">Cogility Studio is three tightly integrated applications: Cogility Modeler, Cogility Manager and Cogility Insight. Cogility Modeler’s standards based UML modeling environment enables one to author a business process in an easy to use visual programming environment. Deploy that model as an application on any J2EE application server by “pushing” it in to the Cogility Manager run-time environment and managing and analyzing that running application using Cogility Insight.</p></div>
+   
+   <!-- CONTENT BEGIN -->
+   <h2 class="blue_underline">Cogility Studio in Action</h2>
+ <div class="middle"> 
+ 
+ 
+ <a href="../Images/how_it_works_Md.jpeg" rel="lightbox" title="Cogility Studio in Action" ><img src="../Images/Click to enlarge Process Diagram.jpeg" width="350" height="261" alt="Click to Enlarge" /></a>
+ 
+ </div>
+   <p>As shown in the figure, deployment is simply the process of taking a model you have created in Cogility Modeler and pushing it into execution as a enterprise application.
+     
+     During deployment, Cogility Modeler creates the Java beans, deployment descriptors, routines and other Java run-time utilities. You do not have to write any Java code to complete the deployment because deploying a model not only creates the Java application, but the run-time environment that manages interactions between the composite application, the specific application server and the database for the run-time repository. Pushing the model creates the tables on the run-time repository for the model objects (such as the M2E conversions, events, web services, and so on), and for the business objects that are created at run-time (such as Customers, Addresses and Products); it also creates the Java beans, deployment descriptors, routines and libraries that manage the communication between the composite application, the J2EE application server and the run-time repository.</p>
+
+<h2 class="blue_underline">Cogility Modeler</h2>
+
+<p>Cogility Modeler is an integrated development environment (IDE) for the collaborative authoring of an enterprise system model. Like an IDE for developing code and code objects, it provides a single tool for working with many types of system artifacts. Unlike a typical IDE concerned only with individual entities, Cogility Modeler provides visibility over an entire system and semantic consistency checking between artifacts of a system. That system may include any or all business processes that span the enterprise, the messages between components of that system, and the data and operations of that system. All of these are described as artifacts of an enterprise model created in Cogility Modeler. The model may be developed collaboratively with contributions from people at both the high-level, conceptual end and the low-level, implementation end. The model becomes fully executable when deployed as a J2EE application.</p>
+<p>An enterprise model consists of artifacts grouped in the following areas:</p>
+<div class="middle"><img src="../Images/Cog_Mod_1.jpeg" width="438" height="160" alt="Cogility Modeler" /></div>
+<ul>
+<li><span class="blue">Information Modeling</span> - The artifacts of the information model describe the business objects of the enterprise. A Customer, for example, is represented as a class artifact with such attributes as first name, last name, customer ID, address and so forth.</li>
+<li><span class="blue">Message modeling</span> - The message model is concerned with the communication between the application and the outside world (other applications). Message artifacts represent JMS messages, which are connected to conversion artifacts that isolate the model from the physical communication and enforce the abstractions. This allows the business logic to deal with “events” that are separate from the technology concerns.</li>
+<li><span class="blue">Behavior modeling</span> – Objects in the Cogility system have behavior and respond to events (external and internal). This allows the system to be dynamic, and to localize changes to the part of the model directly affected by a change. The behavior modeling also includes the inclusion of human users into the process logic of the system for consultation or information presentation purposes. The synergy of automation and human control is a key enabler of complex event driven process based systems.</li>
+<li><span class="blue">Transformation modeling</span> - At the heart of an integration model, transformation objects describe the way data from an application gets mapped to another application. Transformation maps, classifier maps and feature maps are all examples of transformation artifacts defined by the CWMM standard and implemented in the Cogility transformation engine. Cogility is unique in allowing transformations to be embedded in a process allowing automation or manual interaction as part of the transformation process or to control the timing of the transformation.</li>
+<li><span class="blue">Web service modeling</span> - Web service modeling artifacts provide for communication between the model's J2EE application and other systems and applications. Both SOAP and HTTP web services are support and can be supported simultaneously for the same business logic. Just like message modeling, web service modeling can generate events that are fed to the behavior model unifying the treatment of external communications.</li>
+</ul>
+
+<h2 class="blue_underline">Cogility Manager</h2>
+
+<p>Cogility Manager is the run-time environment in which the deployed composite application runs. It enables a model created in Cogility Modeler to run as a composite application on a specific application server with a specific database for the run-time repository.</p>
+<div class="middle"><img src="../Images/Cog_Man_1.jpeg" width="347" height="243" alt="Cogility Manager" /></div>
+<ul>
+<li>Cogility Manager includes the libraries and routines that run the composite application on a specific J2EE application server, which provides system security and enables system messaging and database transactions.</li>
+<li>The Cogility Manager metadata layer is running on the J2EE application server machine and provides the process, business logic, and integration support expected by the generated model-driven application</li>
+<li>The model-driven business logic and data repository layer is the java application generated from the project model</li>
+</ul>
+<h2 class="blue_underline">Cogility Insight</h2>
+<p>
+Cogility Insight is the model execution visualization environment for review and analysis of system performance. It permits users to immediately execute and visualize deployed models without the need for custom user-interface programming. This saves significant time and assures compatibility with your running processes.</p>
+<div class="middle"><img src="../Images/insight.jpeg" width="363" height="299" alt="Cogility Insight" /></div>
+
+<h5>Insights features include:</h5>
+ <ul> 
+<li>An authentication layer that restricts access to critical information based on user account and password;</li>
+<li>Access to business data through the web Services layer, supporting easy access from across and outside your enterprise with standard security features that are provided through web server technology;</li>
+<li>Access to business web service interfaces permitting service invocation for testing purposes;</li>
+<li>Auditing of executing as well completed processes, with full access to runtime state data;</li>
+<li>Display of accumulated usage and trend analysis of the relevant key performance indicators (KPI’s) defined by the user in the Cogility system model;</li>
+<li>Automatic updating as the model is updated and redeployed without the need for additional manual steps;</li>
+<li>Access to configuration management version numbers for all deployed artifacts, including business process definitions, encapsulated business logic, business web services, queries, to facilitate configuration identification throughout the system development and maintenance life cycle.</li>
+</ul>
+<div class="middle"><img src="../Images/Cog_Ins_2.jpeg" width="347" height="310" alt="Cogility Insight" />
+<h5>Model defined chart with drill-down capability 
+being displayed by Cogility® Insight Web</h5></div>
+<p>Cogility Insight is a web application that runs on your J2EE application server. As such, Cogility Studio must be deployed to that application server and the server must be running in order to run Cogility Insight.</p>
+<!-- CONTENT END -->
+
+</div>
+<div class="bottom"><span></span></div>
+
+
+
+</div>
+<div class="grey666" id="footer">
+   COGILITY SOFTWARE CORPORATION, 2001-2011 ALL RIGHTS RESERVED <a href="privacypolicy.html">PRIVACY POLICY</a> <a href="termsofuse.html">TERMS OF USE</a>
+<div id="DBDUNS">
+<script language="JavaScript" src="https://dunsregistered.dnb.com" type="text/javascript"></script>
+</div>
+</div>
+</div>
+<div id="right_col">
+  <div id="liquid-round">
+  <div class="top"><span></span></div>
+  <div class="center-content-fullh">
+  <h3>Template Event Processing Language </h3>
+  <div class="middle-fixedh"> 
+  <a href="products_TEPL.html"><img class="TEPLspace" src="../Images/teplfan.png" alt="More on Template Event Processing Language"/>
+  <br/>
+  "The Template Event Processing Language allows projects to continuously monitor large data sets and direct analyst attention."</a>
+  </div>
+  </div>
+  <div class="bottom"><span></span></div>
+</div>
+<div id="liquid-round">
+<div class="top"><span></span></div>
+<div class="center-content">
+<h3>Cogility Intel Framework</h3>
+<div class="middle-fixedh"> 
+<a href="products_intelframework.html"><img src="../Images/intel-framework.png" alt="More on Intel Framework" width="113" height="115"/>
+<br/>
+"Cogility is the unique provider of an integrated development environment."</a>
+</div>
+</div>
+<div class="bottom"><span></span></div></div></div>
+ 
+</div> 
+</div>
+</body>
+</html>
